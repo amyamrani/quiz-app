@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", sans-serif;
+    color: black;
+    background:cover;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.world-map {
+    height: 200px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-weight: bold;
+}
