@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Georgia", sans-serif;
+    font-family: "Open sans", sans-serif;
     color: black;
     background:cover;
     background-color: lightblue;
@@ -23,11 +23,13 @@ main {
     border-radius: 10px;
     padding: 20px;
     display: inline-block;
+    width: 90%;
+    max-width: 500px;
 }
 
 .world-map {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -38,4 +40,45 @@ main {
     border-radius: 10px;
     background-color: lightblue;
     font-weight: bold;
+    margin-top: 10px;
+}
+
+#question-form .button {
+    float: right;
+}
+
+.option-item {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.correct-answer {
+    background-color: #e6fffa;
+    border: 1px solid #2F855A;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.correct-option {
+    color: #2F855A;
+}
+
+.incorrect-answer {
+    background-color: #fff5f5;
+    border: 1px solid #c53030;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.incorrect-option {
+    color: #c53030;
+}
+
+.question-and-score {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
 }
